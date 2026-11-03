@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download the final GeoGCG image requests from licensed image endpoints."""
+"""Download the final GUSR image requests from licensed image endpoints."""
 
 import argparse
 import csv

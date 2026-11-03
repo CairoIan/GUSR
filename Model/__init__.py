@@ -1,1 +1,1 @@
-"""GeoGCG training model package."""
+"""GUSR training model package."""
