@@ -30,7 +30,7 @@ pip install -r requirements-core.txt
 
 ## Data download and layout
 
-**Dataset download:** The [GeoGCG dataset on ModelScope](https://www.modelscope.cn/datasets/CCairo/GeoGCG) provides seven checkpoints and six city archives containing the GUSR records, OSM inputs and training manifests. Original satellite and street-view images are prepared separately using the final image request list below.
+**Dataset download:** The [GUSR dataset on ModelScope](https://www.modelscope.cn/datasets/CCairo/GUSR) provides seven checkpoints and six city archives containing the GUSR records, OSM inputs and training manifests. Original satellite and street-view images are prepared separately using the final image request list below.
 
 ```text
 GUSR/
@@ -59,11 +59,11 @@ GUSR/
 
 The seven published weights are Zhengzhou Stage 1 (step 10,000), Zhengzhou Stage 2 (seed 192, epoch 66), and Beijing, Changsha, Shanghai, Wuhan and Xi'an transfer Stage 2 (seed 42; epochs 65, 37, 58, 58 and 59, respectively). They are distributed with the data bundle because the Stage 1 weight alone is about 2 GB. The Stage 2 weights are optional when training Stage 2 from scratch.
 
-**Download and place the non-image inputs.** Install the ModelScope downloader, then download the [dataset](https://www.modelscope.cn/datasets/CCairo/GeoGCG) into `Dataset/`. Each city archive unpacks its `merged_by_grid.json`, `rle/` GUSR masks and `map.osm` under `Dataset/cities/<city>/`; the Zhengzhou archive also contains the two Stage 1 feature CSV files. The `merged_by_grid.json` records contain the GUSR image descriptions and paths to the separate image and mask files. GUSR records are annotations of images, not the images themselves.
+**Download and place the non-image inputs.** Install the ModelScope downloader, then download the [dataset](https://www.modelscope.cn/datasets/CCairo/GUSR) into `Dataset/`. Each city archive unpacks its `merged_by_grid.json`, `rle/` GUSR masks and `map.osm` under `Dataset/cities/<city>/`; the Zhengzhou archive also contains the two Stage 1 feature CSV files. The `merged_by_grid.json` records contain the GUSR image descriptions and paths to the separate image and mask files. GUSR records are annotations of images, not the images themselves.
 
 ```bash
 pip install modelscope==1.37.1
-modelscope download --dataset CCairo/GeoGCG --local_dir Dataset
+modelscope download --dataset CCairo/GUSR --local_dir Dataset
 for archive in Dataset/training_inputs/*_training_inputs.tar.gz; do
   tar -xzf "$archive" -C Dataset
 done
