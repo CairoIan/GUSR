@@ -1,0 +1,20 @@
+{
+  "data": {
+    "batch_size": 32,
+    "image_size": 224,
+    "num_workers": 8,
+    "max_tokens": 350,
+    "include_satellite": true,
+    "include_street": true
+  },
+  "optim": {
+    "max_steps": 10000,
+    "lr": 0.00005
+  },
+  "loss": {
+    "single_modal_weight": 1.0,
+    "cross_modal_weight": 1.0,
+    "phrase_weight": 0.5,
+    "intra_modal_weight": 0.5
+  }
+}

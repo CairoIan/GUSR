@@ -1,0 +1,15 @@
+# Versions used by the server smoke test on 2026-11-01.
+numpy==1.26.4
+pandas==2.3.3
+geopandas==1.1.1
+shapely==2.1.2
+scikit-learn==1.7.2
+Pillow==11.0.0
+pycocotools==2.0.8
+tqdm==4.67.1
+matplotlib==3.9.2
+requests==2.32.5
+transformers==4.33.2
+torch==2.3.1
+torchvision==0.18.1
+

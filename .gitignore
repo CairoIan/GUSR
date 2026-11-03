@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.log
+.env
+
+download/image_source.json
+download/download_status.csv

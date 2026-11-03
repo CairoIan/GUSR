@@ -1,0 +1,113 @@
+{
+    "road_infrastructure": [
+      "road", "roads", "lane markings", "road markings", "crosswalk", "sidewalk",
+      "pavement", "curb", "traffic lane", "center line", "street surface"
+    ],
+  
+    "vehicles": [
+      "car", "cars", "sedan", "suv", "truck", "pickup truck", "van", "minivan",
+      "bus", "motorcycle", "scooter", "bike", "bicycle", "vehicle", "vehicles"
+    ],
+  
+    "pedestrians": [
+      "person", "people", "man", "woman", "child", "pedestrian", "crowd"
+    ],
+  
+    "buildings": [
+      "building", "buildings", "house", "residential building", "commercial building",
+      "skyscraper", "apartment", "warehouse", "storefront", "shop", "mall"
+    ],
+  
+    "commercial_facilities": [
+      "storefront", "signboard", "signage", "billboard", "poster", "advertisement",
+      "banner", "vending machine"
+    ],
+  
+    "construction_industry": [
+      "construction site", "crane", "cranes", "excavator", "tractor",
+      "scaffolding", "construction materials", "cement mixer"
+    ],
+  
+    "public_service": [
+      "bus stop", "fire hydrant", "utility box", "electrical box",
+      "power transformer", "postbox", "mailbox"
+    ],
+  
+    "traffic_signals_signs": [
+      "traffic sign", "traffic signs", "road sign", "street sign",
+      "traffic light", "stoplight", "pedestrian signal", "traffic signal"
+    ],
+  
+    "power_communication": [
+      "utility pole", "power pole", "telephone pole", "power lines",
+      "cables", "wiring", "communication cable", "antenna", "satellite dish"
+    ],
+  
+    "street_furniture": [
+      "streetlight", "streetlights", "lamp post", "bench",
+      "railing", "handrail", "trash can", "trash bin"
+    ],
+  
+    "vegetation": [
+      "tree", "trees", "vegetation", "grass", "bushes", "shrub",
+      "flowers", "plants"
+    ],
+  
+    "urban_landscape": [
+      "sculpture", "statue", "fountain", "public square", "pavilion"
+    ],
+  
+    "water": [
+      "water", "river", "canal", "pond", "puddle", "lake"
+    ],
+  
+    "advertisement_displays": [
+      "billboard", "poster", "advertisement", "digital screen",
+      "neon sign", "ad board"
+    ],
+  
+    "sanitation": [
+      "trash", "garbage", "litter", "dumpster", "waste container"
+    ],
+  
+    "security": [
+      "security camera", "cctv", "surveillance camera"
+    ],
+  
+    "parking_related": [
+      "parking lot", "parking area", "garage", "garage door", "parking meter"
+    ],
+  
+    "bridges_structures": [
+      "bridge", "overpass", "flyover", "elevated road"
+    ],
+  
+    "fences_boundaries": [
+      "fence", "gate", "guardrail", "barrier"
+    ],
+  
+    "air_conditioning": [
+      "air conditioner", "outdoor unit", "ac unit", "rooftop unit"
+    ],
+  
+    "solar_energy": [
+      "solar panel", "solar panels"
+    ],
+  
+    "industrial_facilities": [
+      "factory", "industrial plant", "smokestack", "chimney"
+    ],
+  
+    "towers_highrise": [
+      "tower", "communication tower", "skyscraper tower", "high-rise"
+    ],
+  
+    "bicycles_mobility": [
+      "bicycle", "bike", "motorbike", "ebike", "shared bike"
+    ],
+  
+    "misc_public_elements": [
+      "manhole cover", "fire escape", "drainage grate"
+    ]
+  }
+  

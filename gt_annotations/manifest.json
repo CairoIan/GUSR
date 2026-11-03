@@ -1,0 +1,80 @@
+{
+  "label_type": "grid-level socioeconomic proxy targets",
+  "cities": {
+    "beijing": {
+      "rows": 902,
+      "file": "beijing/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Employment_2023_grid",
+        "Wage_2023_grid",
+        "Retail_2023_grid",
+        "Total population"
+      ]
+    },
+    "changsha": {
+      "rows": 1147,
+      "file": "changsha/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Retail_2023_grid",
+        "Total population"
+      ]
+    },
+    "shanghai": {
+      "rows": 1958,
+      "file": "shanghai/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Total population"
+      ]
+    },
+    "wuhan": {
+      "rows": 1902,
+      "file": "wuhan/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Retail_2023_grid",
+        "Total population"
+      ]
+    },
+    "xian": {
+      "rows": 1541,
+      "file": "xian/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Retail_2023_grid",
+        "Construction_area_grid",
+        "Finished_area_grid",
+        "Finished_value_grid",
+        "Total population"
+      ]
+    },
+    "zhengzhou": {
+      "rows": 2314,
+      "file": "zhengzhou/gt_targets.csv",
+      "columns": [
+        "city",
+        "grid_id",
+        "GDP_2023_grid",
+        "Employment_2023_grid",
+        "Wage_2023_grid",
+        "Retail_2023_grid",
+        "Construction_area_grid",
+        "Finished_area_grid",
+        "Finished_value_grid",
+        "Total population"
+      ]
+    }
+  }
+}

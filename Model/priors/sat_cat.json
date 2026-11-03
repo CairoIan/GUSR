@@ -1,0 +1,88 @@
+{
+    "building": [
+      "building", "buildings", "house", "residential building",
+      "warehouse", "office building", "factory", "industrial building",
+      "shed", "barn"
+    ],
+  
+    "roof": [
+      "roof", "rooftop", "roof structures", "roof panels"
+    ],
+  
+    "road": [
+      "road", "highway", "street", "paved road", "dirt road",
+      "lane markings", "road markings", "pavement", "asphalt"
+    ],
+  
+    "bridge_overpass": [
+      "bridge", "overpass", "flyover", "underpass"
+    ],
+  
+    "railway": [
+      "railway", "railroad", "rail tracks", "train tracks"
+    ],
+  
+    "parking": [
+      "parking lot", "parking area", "parking lines"
+    ],
+  
+    "vehicle": [
+      "car", "truck", "bus", "van", "motorcycle",
+      "train", "airport vehicle"
+    ],
+  
+    "airport_runway": [
+      "runway", "runway markings", "airport road"
+    ],
+  
+    "water": [
+      "river", "lake", "pond", "canal", "water body"
+    ],
+  
+    "vegetation": [
+      "tree", "trees", "forest", "grass", "bush", "shrub", "vegetation"
+    ],
+  
+    "bare_soil_land": [
+      "soil", "sand", "dirt", "barren land", "rock"
+    ],
+  
+    "agriculture": [
+      "farmland", "crop field", "orchard", "agricultural field"
+    ],
+  
+    "sports_field": [
+      "football field", "soccer field", "baseball field",
+      "running track", "stadium"
+    ],
+  
+    "industrial_facility": [
+      "chimney", "silo", "smokestack",
+      "storage tank", "container yard", "cargo container"
+    ],
+  
+    "energy_facility": [
+      "solar panel", "solar farm", "wind turbine"
+    ],
+  
+    "utility_pole_powerline": [
+      "utility pole", "power line", "transmission tower"
+    ],
+  
+    "fence_barrier": [
+      "fence", "guardrail"
+    ],
+  
+    "public_space": [
+      "park", "square", "urban green space"
+    ],
+  
+    "large_structure_misc": [
+      "tower", "communication tower", "monument"
+    ],
+  
+    "other_manmade": [
+      "billboard", "storage building", "infrastructure structure"
+    ]
+  }
+  
